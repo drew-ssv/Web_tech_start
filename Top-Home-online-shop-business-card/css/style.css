@@ -1,0 +1,143 @@
+html,body{
+    overflow-x: hidden; 
+    max-width: 100%;
+    @font-face {
+        font-family: 'Montserrat-Light;
+        src: url(../fonts/Montserrat-Light.ttf);
+    }
+    font-family: 'Montserrat-Light';
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding: 10px 180px 5px 180px;
+    display: flex;
+    justify-content: space-between;
+    @font-face {
+        font-family: 'Frenchpress;
+        src: url(../fonts/Frenchpress_freefont.ttf);
+    }
+    font-family: 'Frenchpress';
+    background: rgba(27, 14, 147, 0.875);
+    color: darkgoldenrod;    
+}
+.header_block{
+    display: flex;
+    align-items: center;
+    font-weight: bold;       
+}
+.header_item{
+    color: darkgoldenrod;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 36px;
+    margin-left: 5px;
+}
+a{
+    color: darkgoldenrod;
+    text-decoration: none;
+}    
+.header_item:hover{
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    object-fit: contain;    
+}
+.img{
+    display: block;
+    max-height: 10%;
+    max-width: 10%;     
+}
+.header_about{
+    font-weight: bold;
+}
+.header_knopka{
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    background: rgba(252, 255, 159, 0.618);
+    color: black; 
+    justify-content: center;   
+    padding: 10px;
+}
+.main_item_1{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.main_item_2{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+}
+.news_foto{
+    position: relative;
+    opacity: 0.3;
+    filter:alpha(opacity=95);  
+}
+.news_text{
+    position: absolute;
+    top: 740px; 
+    text-align: center;
+    font-size: 30px;
+}    
+.main_2{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content:space-evenly;
+    font-size: 26px;
+    font-weight: bold;
+}
+.main_grid{
+    display: flex; 
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+}
+.desctiption_item{   
+    cursor: pointer;    
+}  
+.main_grid:hover{
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+
+.footer{
+    padding: 10px 180px 5px 180px;
+    display: flex;
+    justify-content: space-between;
+    @font-face {
+        font-family: 'Frenchpress;
+        src: url(../fonts/Frenchpress_freefont.ttf);
+    }
+    font-family: 'Frenchpress';
+    background: rgba(27, 14, 147, 0.875);
+    color: darkgoldenrod;    
+}
+.footer_block{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+    font-weight: bold;       
+}
+.footer_item{
+    color: darkgoldenrod;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 36px;
+    margin-left: 5px;
+}
+.footer_item:hover{
+    background-color: chartreuse;
+    border-radius: 5px;
+}

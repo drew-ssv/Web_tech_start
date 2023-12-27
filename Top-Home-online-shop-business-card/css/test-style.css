@@ -1,0 +1,65 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;    
+    @font-face {
+        font-family: 'Frenchpress;
+        src: url(../fonts/Frenchpress_freefont.otf);
+    }
+    font-family: 'Frenchpress';
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+li{    
+    display: flex;
+    flex-flow: wrap;
+    padding: 0 0 0 500px;
+    font-size: 28px;
+}
+
+.main_section {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 0 20px 0 20px; 
+} 
+
+.header, img { 
+    width: 35%;
+   height: 35%;
+   vertical-align: middle
+}
+
+.grid-block {
+  display: grid;
+  grid-auto-flow: column;  
+  grid-template-columns: repeat(3, 400px); 
+  margin-bottom: 0 20px 0 20px; 
+  justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    padding: 0 20px 0 20px;
+    vertical-align: middle
+}
+
+header{    
+    display: flex;
+    flex-flow: grid;
+}
+
+footer footer_text{
+    -webkit-text-fill-color: rgba(27, 14, 147, 0.875);
+}
+
+.buttons {
+    padding: 0 20px 0 20px;
+    background-color: rgb(249 166 2); 
+    style="color: #1a074e;
+}
