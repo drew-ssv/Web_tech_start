@@ -1,3 +1,4 @@
+//ДЗ семинар 3
 function greeting(username) {
     if (username !== null && username.trim() !== "" && username.match(/[a-zA-Zа-яА-ЯЁё '-]+/)) {
         console.log("Привет, " + username + "!");
